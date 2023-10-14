@@ -14,7 +14,7 @@ move_duration: Duration of the cursor movement
 (default is 2 seconds)
 
 requirements:
-pip install pyautogui
+- pip install pyautogui
 """
 
 import pyautogui
