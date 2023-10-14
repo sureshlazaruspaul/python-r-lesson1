@@ -9,45 +9,47 @@ import pyttsx3
 import PyPDF2
 import os
 
-try:
-    # Create PDF reader object
-    # open the PDF file in binary read mode
 
-    pdf = PyPDF2.PdfReader(open("file.pdf", "rb"))
+def text2speech(outfile):
 
-    # Set output file name
-    outfile = "file.mp3"
-    # outfile = "file.wav"
+    try:
+        # Create PDF reader object
+        # open the PDF file in binary read mode
 
-    # Initialize text-to-speech engine
-    speaker = pyttsx3.init()
+        pdf = PyPDF2.PdfReader(open("file.pdf", "rb"))
 
-    clean_text = ""
+        # Initialize text-to-speech engine
+        speaker = pyttsx3.init()
 
-    # Loop through pages
-    for page_num in range(len(pdf.pages)):
-        # Extract text from page
-        text = pdf.pages[page_num].extract_text()
+        clean_text = ""
 
-        # Clean text by removing newline chars & append
-        clean_text = clean_text + text.strip().replace("\n", " ")
+        # Loop through pages
+        for page_num in range(len(pdf.pages)):
+            # Extract text from page
+            text = pdf.pages[page_num].extract_text()
 
-    # Print cleaned text
-    print(clean_text)
+            # Clean text by removing newline chars & append
+            clean_text = clean_text + text.strip().replace("\n", " ")
 
-    # Save audio file
-    speaker.save_to_file(clean_text, outfile)
+        # Print cleaned text
+        print(clean_text)
 
-    # execute the text-to-speech conversion and wait for it to finish
-    speaker.runAndWait()
+        # Save audio file
+        speaker.save_to_file(clean_text, outfile)
 
-    # stop the text-to-speech engine
-    speaker.stop()
+        # execute the text-to-speech conversion and wait for it to finish
+        speaker.runAndWait()
 
-    # play file
-    os.startfile(outfile)
+        # stop the text-to-speech engine
+        speaker.stop()
 
-except FileNotFoundError:
-    print("Error: The 'file.pdf' file was not found.")
-except Exception as e:
-    print(f"An error occurred: {str(e)}")
+        # play file
+        return os.startfile(outfile)
+
+    except FileNotFoundError:
+        print("Error: The 'file.pdf' file was not found.")
+    except Exception as e:
+        print(f"An error occurred: {str(e)}")
+
+# USAGE
+# text2speech(outfile="file.mp3")
