@@ -12,6 +12,9 @@ click_duration: Duration of the mouse click simulation
 (default is 1.5 seconds)
 move_duration: Duration of the cursor movement 
 (default is 2 seconds)
+
+requirements:
+pip install pyautogui
 """
 
 import pyautogui
