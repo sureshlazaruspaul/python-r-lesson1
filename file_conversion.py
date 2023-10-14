@@ -56,7 +56,7 @@ def pdf_to_images(pdf_path, output_folder):
         if 'pdf_document' in locals():
             pdf_document.close()
 
-# USAGE
+# USAGE:
 # pdf_path = "file.pdf"
 # output_folder = "output_images"
 # pdf_to_images(pdf_path, output_folder)
