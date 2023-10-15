@@ -12,6 +12,9 @@ Libraries:
 - pyautogui: Used for taking screenshots.
 - SpeechRecognition: Used for transcribing audio commands.
 - pyaudio: Required by SpeechRecognition for working with the microphone.
+
+Author: Suresh Paul
+Date: October 15, 2023
 """
 
 import contextlib
