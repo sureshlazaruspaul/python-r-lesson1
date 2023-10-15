@@ -6,6 +6,9 @@ audio file, all while handling potential errors during the process.
 requirements:
 - pip install pyttsx3
 - pip install PyPDF2
+
+Author: Suresh Paul
+Date: October 15, 2023
 """
 
 # Import required modules
