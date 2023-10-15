@@ -15,6 +15,9 @@ move_duration: Duration of the cursor movement
 
 requirements:
 - pip install pyautogui
+
+Author: Suresh Paul
+Date: October 15, 2023
 """
 
 import pyautogui
