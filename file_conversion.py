@@ -9,8 +9,8 @@ Returns:
  None
 
 Requirements:
-pip install pymupdf
-pip install pillow
+- pip install pymupdf
+- pip install pillow
 """
 
 import fitz
