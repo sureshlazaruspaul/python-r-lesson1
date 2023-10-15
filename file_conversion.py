@@ -11,6 +11,9 @@ Returns:
 Requirements:
 - pip install pymupdf
 - pip install pillow
+
+Author: Suresh Paul
+Date: October 15, 2023
 """
 
 import fitz
