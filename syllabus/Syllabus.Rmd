@@ -1,0 +1,178 @@
+---
+title: "Syllabus"
+author: "Suresh L. Paul"
+output: pdf_document
+---
+
+**BUS622: DEVELOP TOOLS IN BUSINESS ANALYTICS**
+
+R AND PYTHON PROGRAMMING FOR MANAGERS         
+
+&nbsp;
+
+**INSTRUCTOR INFORMATION**
+
+Suresh L. Paul\
+PhD (ABD) Finance, M.S., B.Engg.\
+Assistant Professor of Economics, BW\
+Founder & Research Scientist, Algorithm Basics LLC\
+[spaul@bw.edu](mailto:spaul@bw.edu)\
+[linkedin.com/in/sureshlpaul](https://www.linkedin.com/in/sureshlpaul/)     
+
+&nbsp;
+
+**COURSE INFORMATION**
+
+*Meeting room*: Bloomberg Research Center Lab\
+*Time*: 6:15PM - 9:00PM on Mondays\
+*Office hours*: by appointment only        
+
+&nbsp;
+
+**COURSE DESCRIPTION** 
+
+This course introduces students to various tools in business analytics development and reporting. Students are introduced to the basics of programming with R and Python to develop a working knowledge of how to acquire, manage, and visualize data.
+
+&nbsp;
+
+**LEARNING OUTCOMES**
+
+- Understand and use R functions in business data analysis
+- Understand and apply the main concepts used in data science and business analytics using functions and tools developed in Python
+- Understand and apply basic coding and programing with tools such as R and Python
+
+&nbsp;
+
+**COURSE MATERIALS**
+
+*Texbook*: no assigned textbook; readings, sample code, and assignments provided by the instructor via *Canvas*     
+*Datasets*: provided by the instructor        
+
+&nbsp;
+
+**COMPUTING NEEDS**
+
+None.
+
+&nbsp;
+
+**GRADING**
+
+| Grade Categories     | %  |
+|:---------------------|---:|
+| Homework Assignments | 50 |
+| Project Report       | 20 |
+| Project Presentation | 30 |    
+
+&nbsp;
+
+**PROJECT**
+
+You will write a paper showing your research, quantitative, and coding skills developed in this course. The code will be attached as an addendum to your project report. You will start with an interesting topic to work on, search for data sources and extract applicable data, designing a statistical analysis and explain all anticipated results, code your econometric analysis and produce results, explain your code for each analysis performed, and maintain a thorough documentation of all steps involved. If you have no data to work on, one will be assigned to you. Note that this project will be completed in stages as the course progresses. And, to proceed to the next stage, all your prior work must be discussed in class and approved. Additionally, you are expected to make a professional presentation on the final meeting of the course.
+
+*Framework*
+
+- Explain the research question
+- Describe the data contents
+- Explain the treatment of missing variables
+- Explain the merging, subsetting and filtering logic
+- Conduct exploratory data analysis
+    - initial plots / normal distribution
+    - summarise
+- Descriptive Statistics and associated plots
+- Report Writing
+- Presentation        
+
+&nbsp;
+
+*Project datasets*
+
+- OHLCV data on trading assets
+- Credit default risk data
+- NBA data        
+
+&nbsp;
+
+**ATTENDANCE POLICY**
+
+Attendance is mandatory and essential for success in this course. You can either attend the class in-person or online via Zoom. If you are unable to attend the class live during class timings, you *may* listen to the class recordings via *Panopto* in *Canvas*. Each class content is tailored for you to successfully finish the project, which carries substantial portion of your grade. In addition, class participation carries crucial grade points. You should make efforts to attend every class during class timings unless you have a medically certified illness, death in the family, or University-sponsored activity. You are responsible for keeping up with all the lecture material and announcements made in classes.     
+
+&nbsp;
+
+**COURSE SCHEDULE**
+
+*Week 1:* OCTOBER 16th
+
+- Syllabus discussion 
+- Introduction and basic console coding in *R* & *Python*
+- Demo of some R codes and Python codes
+- Homework Assignment I
+
+*Week 2:* OCTOBER 23rd
+
+- Basic *R* programming
+    - Introduction to *dplyR*
+    - Import and Save datasets
+    - Simple *SQL* programming with *dplyR*
+    - Creating *R* Scripts
+    - Using *dplyR* features
+        - Create
+        - Subset
+        - Mutate / Transmute
+        - Filter
+        - Sort (Arrange)
+        - Grouping and Summarise
+        - Top N
+    - Treatment of missing data
+- Homework Assignment II
+
+*Week 3:* OCTOBER 30th
+
+- Working with plots
+    - Plots as diagnostic tools (initial exploratory analysis)
+    - Create different plot types using base R
+        - Scatter
+        - Line
+        - Bar
+        - Box
+        - Pie
+    - Using *ggplot*
+    - Multiple plots side-by-side
+- Miscellaneous R topics 
+    - Functions
+    - Loops
+    - Merging
+    - Date treatment
+- Homework Assignment III
+
+*Week 4:* NOVEMBER 6th
+
+- Introduction to *Python*
+- Basic calculations using *numpy* and *pandas*
+- Importing datasets
+- Homework Assignment IV
+
+*Week 5:* NOVEMBER 13th
+
+- Creating some apps
+    - Notification app 
+    - Emailing app 
+    - Audible (text to speech) app 
+    - File conversion app (PDF to PNG)
+    - Print screen app 
+    - Moving cursor app 
+    - Messaging app 
+- Homework Assignment V
+
+*Week 6:* NOVEMBER 20th
+
+- Build a personal assistant app
+- Homework Assignment V
+
+*Week 7:* NOVEMBER 27th
+
+- Project Review
+
+*Week 8:* December 4th
+
+- Project Presentations
