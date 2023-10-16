@@ -5,6 +5,9 @@ intervals using system notifications.
 
 Requirements:
 - pip install plyer
+
+Author: Suresh Paul
+Date: October 15, 2023
 """
 
 import time
