@@ -131,7 +131,7 @@ Find the following:
 
 ![Formula for calculation number of periods - n](img/mortgagePayment.png)
 
-- Calculate the number of payment terms *n* for a mortgage with a principle balance *P* of $380,000, monthly interest rate *i* of 0.54%, and monthly payment amount *M* of 1850.
+- Calculate the number of payment terms *n* for a mortgage with a principle balance *P* of $380,000, monthly interest rate *i* of 0.045%, and monthly payment amount *M* of 1850.
 
 - What if all else is the same (no cgange in other variables) but monthly payments *M* is now given as a vector 
 
